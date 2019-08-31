@@ -27,7 +27,6 @@
     }
   header img {
     height: 50px;
-    width: auto;
     padding-left: 10px;
     padding-top: 7px;
     float: left;
@@ -92,7 +91,7 @@
   #Locations {
     height: 500px;
     width: 1200px;
-    background-image: url("img-locations-background.jpg");
+    background-image: url("./resources/images/img-locations-background.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     text-align: center;
