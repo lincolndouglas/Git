@@ -50,7 +50,7 @@
     margin-top: 69px;
     height: 700px;
     width: 1200px;
-    background-image: url("/Users/230d2/Documents/CodeAcademy/Tea Cozy/resources/images/img-mission-background.jpg");
+    background-image: url("img-mission-background.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     
@@ -92,7 +92,7 @@
   #Locations {
     height: 500px;
     width: 1200px;
-    background-image: url("/Users/230d2/Documents/CodeAcademy/Tea Cozy/resources/images/img-locations-background.jpg");
+    background-image: url("img-locations-background.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     text-align: center;
