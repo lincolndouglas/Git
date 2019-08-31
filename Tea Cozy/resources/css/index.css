@@ -1,0 +1,134 @@
+* {
+    font-family: Helvetica, 'Courier New', Courier, monospace, sans-serif;
+    color: seashell; 
+    background-color: black; 
+    font-size: 22px;
+     }
+  h2{
+      font-size: 1.4rem;
+      text-emphasis: bold; 
+  }
+  h3{
+    font-size: 1.17rem;
+    text-emphasis: bold; 
+}
+  h5{
+    font-size: .8rem;
+  }
+/* Header Section */
+  header {
+    height: 69px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: block;
+    z-index: 10;
+    }
+  header img {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+    padding-top: 7px;
+    float: left;
+    vertical-align: middle;
+  }
+  nav{
+    vertical-align: middle;
+    text-align: right;
+    line-height: 69px; 
+
+  } 
+  
+  a{
+    text-decoration: underline;
+    margin-right: 10px;
+    }
+
+/* Mission Section */
+  #mission {
+    margin-top: 69px;
+    height: 700px;
+    width: 1200px;
+    background-image: url("/Users/230d2/Documents/CodeAcademy/Tea Cozy/resources/images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+  }
+  .Mission-Text {
+    position: relative;
+    text-align: center;
+    vertical-align: 50%;
+    height: 124px;
+    top: 288px;
+  }
+  .Mission-Text h2 {
+    text-align: center;
+    padding-top: .5rem;
+    
+  }
+  .Mission-Text h4 {
+    text-align: center;
+    padding-bottom: .5rem;
+  }
+/* Tea of the Month */
+  #Tea-of-the-Month {
+    text-align: center;    
+  }
+  #Tea-of-the-Month .images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+
+  }
+  #Tea-of-the-Month img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+  }
+/* Location Section */
+  #Locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("/Users/230d2/Documents/CodeAcademy/Tea Cozy/resources/images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    padding-top: 30px;
+    }
+  .location-text {
+    margin-bottom: 15px;
+    position: relative;
+    background: none;
+  }
+  #Locations .info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: none;
+    position: relative;
+    height: 380px;
+  }
+  #Locations .location {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    margin: 0px 20px;
+    padding-top: 15px;
+    border-radius: 5%;
+  }
+  #Locations .location h4 {
+    font-weight: lighter
+  }
+/* Footer Section */
+footer {
+  height: 200px;
+  text-align: center;
+}
+.copyright {
+  margin-inline-start: 20px;
+  text-align: left;
+}

@@ -1,0 +1,20 @@
+* {
+    font-family: Raleway, 'Courier New', Courier, monospace, sans-serif; background-color: blue; text-align: center;
+  }
+  
+  
+  h1 {
+    color: rgb(177, 235, 143);
+  }
+  
+  
+  p, 
+  li {
+    font-size: 38px; color: rgb(210, 223, 153); 
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  #mickey-pic {height: 350px; width: 550px; opacity: 18; box-shadow: 10px 10px 5px gold; -webkit-border-radius:32px; -webkit-border-radius:120px;border-radius:150px}
